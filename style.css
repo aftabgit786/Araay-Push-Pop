@@ -1,0 +1,68 @@
+div{
+    text-align: center;
+    display: grid;
+    place-items: center; 
+    border-radius: 30px;
+   
+    background: transparent;
+ }
+
+ input{
+   text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: skyblue;
+ }
+ 
+input:hover{
+   text-align: center;
+   padding: 7px;
+   font-size: 30px;
+   border-radius: 10px;
+   background-color: #f9999f;
+}
+
+ body{
+    background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(https://source.unsplash.com/720x600/?javascript);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    place-items: center;
+ }
+ 
+ button{
+   padding: 10px;
+   font-weight: bold;
+   font-size: 30px;
+   text-align: center;
+   border-radius: 20px;
+   border: solid white 2px;
+   color: white;
+   background-color: rgb(46, 79, 243);  
+ }
+ 
+ button:hover{
+    size: 20px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    border: solid black 2px; 
+    cursor: pointer;
+    font-size: 30px;
+ }
+ 
+ h1{ 
+   color:whitesmoke;
+   font-style: bold;
+   font-size: 35px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ h2{
+   color:white;
+   font-weight: bold;
+   font-size: 60px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+ }
